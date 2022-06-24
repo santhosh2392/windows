@@ -1,0 +1,21 @@
+#!/bin/bash
+yum install httpd -y
+service httpd start
+echo '<h1> Hello All </h1>' > /var/www/html/index.html
+
+
+
+#!/bin/bash
+yum install httpd -y
+service httpd start
+mkdir /var/www/html/icici
+echo '<h1>Welcome to icici Login page</h1>' > /var/www/html/icici/index.html
+
+
+
+
+#!/bin/bash
+yum install httpd -y
+service httpd start
+mkdir /var/www/html/hdfc
+echo '<h1>Welcome to hdfc Login page</h1>' > /var/www/html/hdfc/index.html
